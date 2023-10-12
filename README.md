@@ -1,4 +1,4 @@
-<h1 align="center"><a href='http://10.250.60.82:7777/wzc/ShellSshJumper.git' target="_blank" >ShellSshJumper</a></h1>
+<h1 align="center"><a href='https://github.com/munameiscr7/ShellSshJumper.git' target="_blank" >ShellSshJumper</a></h1>
 
 <p align="center">
 A file-based jumpserver ssh login tool written with a shell,it is small compare with other professional jumpserver such as jumperserver etc.
@@ -22,7 +22,7 @@ It can be used in a general small scenario, suitable for situations where you do
 ## Install and useage
 
 ```bash
-git clone http://10.250.60.82:7777/wzc/ShellSshJumper.git
+git clone https://github.com/munameiscr7/ShellSshJumper.git
 
 cd ShellSshJumper
 
