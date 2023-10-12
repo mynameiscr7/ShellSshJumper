@@ -1,4 +1,4 @@
-<h1 align="center"><a href='http://10.250.60.82:7777/wzc/ShellSshJumper.git' target="_blank" >ShellSshJumper</a></h1>
+<h1 align="center"><a href='https://github.com/munameiscr7/ShellSshJumper.git' target="_blank" >ShellSshJumper</a></h1>
 
 <p align="center">
 一个使用shell编写的基于文件的跳板机ssh login tool，相比与jumpserver等专业跳板机堡垒机很小巧。
@@ -22,7 +22,7 @@
 ## 安装及使用
 
 ```bash
-git clone http://10.250.60.82:7777/wzc/ShellSshJumper.git
+git clone https://github.com/munameiscr7/ShellSshJumper.git
 
 cd ShellSshJumper
 
