@@ -1,3 +1,4 @@
+#安装
 ```
 yum install expect git -y
 
