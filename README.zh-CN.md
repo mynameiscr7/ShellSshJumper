@@ -35,16 +35,20 @@ bash jump.sh
 
 
 >recodeScreen
->>![alt text](img/recodeScreen.gif)
+
+![alt text](img/recodeScreen.gif)
 
 >addHost
->>![addHost](img/addHost.png)
+
+![addHost](img/addHost.png)
 
 >listHost
->>![listHost](img/listHost.png)
+
+![listHost](img/listHost.png)
 
 >jumpHost
->>![jumpHost](img/jumpHost.png)
+
+![jumpHost](img/jumpHost.png)
 
 
 
