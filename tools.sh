@@ -34,8 +34,8 @@ function log(){
 
 function logo() {
   echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++"
-  color blue "               ZYBSshJumper "
-  color red "http://10.250.60.82:7777/wzc/ShellSshJumper.git "
+  color blue "               MyNameIsCR7SshJumper "
+  color red "https://github.com/munameiscr7/ShellSshJumper.git "
   echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++"
   echo
 }
