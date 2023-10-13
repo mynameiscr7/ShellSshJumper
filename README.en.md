@@ -1,4 +1,4 @@
-<h1 align="center"><a href='https://github.com/munameiscr7/ShellSshJumper.git' target="_blank" >ShellSshJumper</a></h1>
+<h1 align="center"><a href='https://github.com/mynameiscr7/ShellSshJumper.git' target="_blank" >ShellSshJumper</a></h1>
 
 <p align="center">
 A file-based jumpserver ssh login tool written with a shell,it is small compare with other professional jumpserver such as jumperserver etc.
