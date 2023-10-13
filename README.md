@@ -103,6 +103,7 @@ systemctl restart sshd
 #其他用户实现双因子
 cp /root/.google_authenticator /home/username
 chown username:username /home/username/.google_authenticator
-
+或使用
+google-authenticator命令重新生成
 ```
 
