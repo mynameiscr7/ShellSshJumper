@@ -4,7 +4,7 @@ yum install expect git -y
 
 cd /root
 
-git clone https://github.com/munameiscr7/ShellSshJumper.git
+git clone https://github.com/mynameiscr7/ShellSshJumper.git
 ```
 
 
@@ -55,7 +55,7 @@ passwd username
 
 ssh username@ip
 
-git clone https://github.com/munameiscr7/ShellSshJumper.git
+git clone https://github.com/mynameiscr7/ShellSshJumper.git
 
 ```
 
