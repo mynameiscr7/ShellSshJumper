@@ -10,39 +10,77 @@ source tools.sh
 function main() {
 
   # shellcheck disable=SC2078
-  while [ True ]; do
-    color green '支持操作 : '
-    color blue '            j  => jump连接host'
-    color blue '             l => 展示host'
-    color blue '             a => 添加host'
-    color blue '             d => 删除host'
-    color blue '             u => 更新host'
-    read -p "请选择操作：" action
+  if [ $LOGNAME == root ]
+  then
+	  while [ True ]; do
+		color green '支持操作 : '
+		color blue '            j  => jump连接host'
+		color blue '             l => 展示host'
+		color blue '             a => 添加host'
+		color blue '             d => 删除host'
+		color blue '             u => 更新host'
+		read -p "请选择操作：" action
 
-    case "$action" in
-    j)
-      jumpHost
-      line
-      ;;
-    a)
-      addHost
-      line
-      ;;
-    d)
-      delHost
-      line
-      ;;
-    u)
-      updateHost
-      line
-      ;;
-    *)
-      listHost 0
-      line
-      ;;
-    esac
-    continue
-  done
+		case "$action" in
+		j)
+		  jumpHost
+		  line
+		  ;;
+		a)
+		  addHost
+		  line
+		  ;;
+		d)
+		  delHost
+		  line
+		  ;;
+		u)
+		  updateHost
+		  line
+		  ;;
+		*)
+		  listHost 0
+		  line
+		  ;;
+		esac
+		continue
+	  done
+  else
+    trap -- '' SIGINT SIGTERM SIGTSTP
+    while [ True ]; do
+		color green '支持操作 : '
+		color blue '            j  => jump连接host'
+		color blue '             l => 展示host'
+		color blue '             a => 添加host'
+		color blue '             d => 删除host'
+		color blue '             u => 更新host'
+		read -p "请选择操作：" action
+
+		case "$action" in
+		j)
+		  jumpHost
+		  line
+		  ;;
+		a)
+		  addHost
+		  line
+		  ;;
+		d)
+		  delHost
+		  line
+		  ;;
+		u)
+		  updateHost
+		  line
+		  ;;
+		*)
+		  listHost 0
+		  line
+		  ;;
+		esac
+		continue
+	  done
+  fi
 }
 
 function jumpHost() {
