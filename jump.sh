@@ -19,6 +19,7 @@ function main() {
 		color blue '             a => 添加host'
 		color blue '             d => 删除host'
 		color blue '             u => 更新host'
+		color blue '             e => 退出终端'
 		read -p "请选择操作：" action
 
 		case "$action" in
@@ -38,6 +39,9 @@ function main() {
 		  updateHost
 		  line
 		  ;;
+		e)
+		exit
+		;;
 		*)
 		  listHost 0
 		  line
