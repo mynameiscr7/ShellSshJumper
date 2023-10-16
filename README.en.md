@@ -22,7 +22,7 @@ It can be used in a general small scenario, suitable for situations where you do
 ## Install and useage
 
 ```bash
-git clone https://github.com/munameiscr7/ShellSshJumper.git
+git clone https://github.com/mynameiscr7/ShellSshJumper.git
 
 cd ShellSshJumper
 
