@@ -1,3 +1,10 @@
+1.解决添加主机不能超过10台的bug
+2.实现ssh登录自动运行该脚本
+3.实现非root用户不能通过CTRL+C结束脚本进程，root用户可以输入e退出脚本进程
+4.实现所有用户双因子验证
+5.实现用户日志记录功能
+
+
 #安装
 ```
 yum install expect git -y
@@ -53,7 +60,9 @@ useradd username
 
 passwd username
 
-ssh username@ip
+su - username
+
+google-authenticator
 
 git clone https://github.com/mynameiscr7/ShellSshJumper.git
 
