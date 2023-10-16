@@ -54,7 +54,7 @@ function addHost() {
   read -p '是否新增登录主机?  [y/n]' confirm
   [[ $confirm != 'y' ]] && return
 
-  maxid=$(ls data/*.ini | cut -d/ -f2 | cut -d. -f1 | sort -r | head -n1)
+  maxid=$(ls data/*.ini | cut -d/ -f2 | cut -d. -f1 | sort -nr | head -n1)
 
   newId=$(($maxid + 1))
   inifile=$(getIniFilePath $newId)
