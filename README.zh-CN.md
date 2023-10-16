@@ -22,7 +22,7 @@
 ## 安装及使用
 
 ```bash
-git clone https://github.com/munameiscr7/ShellSshJumper.git
+git clone https://github.com/mynameiscr7/ShellSshJumper.git
 
 cd ShellSshJumper
 
