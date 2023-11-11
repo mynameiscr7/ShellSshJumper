@@ -1,5 +1,5 @@
 #!/bin/bash
-
+export LC_CTYPE=en_US
 direc=$(dirname $0)
 
 #引入
